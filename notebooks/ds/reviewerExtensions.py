@@ -22,6 +22,9 @@ from torchvision import models, transforms
 from tqdm.auto import tqdm
 
 
+daffaArtifact = 'Daffa was here'
+
+
 CLASS_NAMES = ('AK', 'BCC', 'MEL', 'NV', 'SCC')
 IMAGE_NET_MEAN = (0.485, 0.456, 0.406)
 IMAGE_NET_STD = (0.229, 0.224, 0.225)
