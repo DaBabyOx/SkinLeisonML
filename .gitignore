@@ -1,0 +1,142 @@
+# -----------------------------------------------------------------------------
+# Sensitive and generated research data
+# -----------------------------------------------------------------------------
+/data/**
+!/data/.gitkeep
+
+# Training outputs, predictions, metrics, and model checkpoints
+/artifacts/**
+!/artifacts/.gitkeep
+
+# Generated reports and visualizations
+/reports/*.md
+/reports/figures/**
+/reports/*.zip
+/reports/*.tar
+/reports/*.tar.gz
+
+# -----------------------------------------------------------------------------
+# Model and experiment binaries
+# -----------------------------------------------------------------------------
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.h5
+*.hdf5
+*.keras
+*.tflite
+*.safetensors
+*.pkl
+*.pickle
+*.joblib
+
+# Generated numerical and tabular caches
+*.npy
+*.npz
+*.parquet
+*.feather
+*.arrow
+
+# Archives and downloaded bundles
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+*.rar
+
+# -----------------------------------------------------------------------------
+# Python
+# -----------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+build/
+dist/
+downloads/
+*.egg-info/
+.eggs/
+*.egg
+pip-wheel-metadata/
+
+# Test, type-checking, lint, and coverage caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pytype/
+.tox/
+.nox/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+
+# -----------------------------------------------------------------------------
+# Jupyter and IPython
+# -----------------------------------------------------------------------------
+.ipynb_checkpoints/
+.ipython/
+profile_default/
+*.nbconvert.ipynb
+
+# -----------------------------------------------------------------------------
+# Secrets and local configuration
+# -----------------------------------------------------------------------------
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+secrets.json
+
+# -----------------------------------------------------------------------------
+# Logs, caches, and temporary files
+# -----------------------------------------------------------------------------
+*.log
+logs/
+cache/
+.cache/
+tmp/
+temp/
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+
+# -----------------------------------------------------------------------------
+# Editors and operating systems
+# -----------------------------------------------------------------------------
+.vscode/
+.idea/
+*.code-workspace
+*.sublime-project
+*.sublime-workspace
+
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Windows installer and crash artifacts
+*.msi
+*.msix
+*.cab
+*.dmp
